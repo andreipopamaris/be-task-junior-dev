@@ -1,0 +1,69 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #808080 #c0c0c0;
+    
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #c0c0c0;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 100px;
+    border: 0px solid #ffffff;
+  }
+
+@media only screen and (max-width: 800px) {
+  #employeesSection {
+    height: 35%!important;
+  }
+  #tasksSection {
+      height: 55%!important;
+  }
+  #employeesTitle {
+    height: 30%!important;
+  }
+  #employeesContent {
+    height: 70%!important;
+  }
+  #employeesContainer{
+    padding: 0 0 10px 0!important;
+  }
+  #tasksTitle {
+    height: 30%!important;
+  }
+  #tasksContent {
+    height: 70%!important;
+  }
+  #tasksContainer{
+    padding: 0 0 10px 0!important;
+  }
+}
+

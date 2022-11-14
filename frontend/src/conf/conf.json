@@ -1,0 +1,20 @@
+{
+    "api": {
+        "base": "http://amaris.api.com/",
+        "endpoints": {
+            "tasks": {
+                "createTask": "task",
+                "deleteTask": "task/",
+                "getAllTasks": "task/all",
+                "updateTask": "task/"
+            },
+            "employees": {
+                "getAllEmplyees": "employee",
+                "deleteEmployee": "employee/",
+                "createEmployee": "employee",
+                "updateEmployee": "employee/"
+
+            }
+        }
+    }
+}

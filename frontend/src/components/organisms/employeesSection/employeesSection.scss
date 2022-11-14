@@ -1,0 +1,41 @@
+#employeesSection {
+    padding: 10px;
+    height: 90%;
+
+    #employeesSectionCard {
+        height: 100%;
+
+        .sectionCardContent {
+            height: 100%;
+
+            #employeesContainer {
+                height: 100%;
+                box-sizing: border-box;
+                padding: 20px;
+
+                #employeesTitle {
+                    height: 10%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .createIcon {
+                        color: green;
+                    }
+                }
+
+                #employeesContent {
+                    height: 90%;
+
+                    .employeesGrid {
+                        height: 100%;
+                        overflow-y: scroll;
+                        align-items: flex-start;
+                        padding-bottom: 20px;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
